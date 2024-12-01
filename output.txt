@@ -1,1 +1,2 @@
-The value of sum is: 3
+Entre the radius of the circle
+The area of circle is: 12
