@@ -1,1 +1,1 @@
-The binary number is: 1010
+The decimal number is: 5
