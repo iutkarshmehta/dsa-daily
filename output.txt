@@ -1,2 +1,1 @@
-Entre the radius of the circle
-The area of circle is: 12
+The binary number is: 1010
