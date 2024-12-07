@@ -1,1 +1,2 @@
-The decimal number is: 5
+Zeroes count is: 6
+ones count is: 4
