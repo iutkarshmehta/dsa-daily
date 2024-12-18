@@ -1,2 +1,1 @@
-The pairs are: (10,50)
-The pairs are: (20,40)
+0 0 0 0 0 1 1 1 1 1 
