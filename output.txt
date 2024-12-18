@@ -1,1 +1,2 @@
-The combined array is: 2 3 4 5 7 8 9 0 
+The pairs are: (10,50)
+The pairs are: (20,40)
