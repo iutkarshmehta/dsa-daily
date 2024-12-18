@@ -1,2 +1,1 @@
-Zeroes count is: 6
-ones count is: 4
+The combined array is: 2 3 4 5 7 8 9 0 
