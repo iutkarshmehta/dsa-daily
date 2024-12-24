@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/// @brief select the minimum and move to the left, complextiy o(n2)
+/// @param arr 
 void selectionSort(vector<int> &arr)
 {
     // code here
@@ -15,15 +17,18 @@ void selectionSort(vector<int> &arr)
             }
         }
         swap(arr[min], arr[i]);
-    }
+    } 
 }
 
 int main()
 {
     int n;
     cin >> n;
-    vector<int> arr;
+    vector<int> arr(n);
     for (int i = 0; i < n; i++)
         cin >> arr[i];
     selectionSort(arr);
+    for(auto i: arr ){
+        cout<< i << " ";
+    }
 }
