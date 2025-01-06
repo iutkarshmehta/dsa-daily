@@ -31,15 +31,15 @@ void merge(vector<int> &arr, int low, int mid, int high)
         temp.push_back(arr[right]);
         right++;
     }
-   
-    for (int i = 0;i <temp.size();i++) {
-        arr[low + i] = temp[i];
+
+    for (int i = 0; i < temp.size(); i++)
+    {
+        arr[low + i] = temp[i]; // confusion
     }
-    
 }
 void mergeSort(vector<int> &arr, int low, int high)
 {
-    
+
     if (low >= high)
     {
         return;
