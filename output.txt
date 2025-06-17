@@ -1,1 +1,1 @@
-Set bits count: 3
+Number is odd
