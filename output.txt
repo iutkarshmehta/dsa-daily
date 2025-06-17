@@ -1,1 +1,1 @@
-Binary Number is: 1011
+Set bits count: 3
