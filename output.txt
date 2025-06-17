@@ -1,1 +1,1 @@
-Element Not found
+Array elements are: 60 50 40 30 20 10 
