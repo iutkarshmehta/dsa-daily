@@ -1,1 +1,1 @@
-Array elements are: 60 50 40 30 20 10 
+The unique element is: 5
