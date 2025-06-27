@@ -1,1 +1,2 @@
-index of target is: -1
+Index is: 0
+Element is: 1
