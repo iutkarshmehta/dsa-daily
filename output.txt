@@ -1,2 +1,1 @@
-Index is: 0
-Element is: 1
+Reveresed char array is: atheM hsraktU
