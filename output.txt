@@ -1,1 +1,7 @@
-Reveresed char array is: atheM hsraktU
+Length: 19
+empty: 0
+Push Back: utkarsh is cool boya
+Push Back: utkarsh is cool boy
+Substring is: karsh
+Find method: 8
+Erase method: arsh is cool boy
