@@ -21,7 +21,7 @@ public:
                 return mid -1;
             }
 
-            if(nums[s] < nums[mid]) {
+            if(nums[s] > nums[mid]) {
                 e= mid -1;
             } else{
                 s = mid +1;
