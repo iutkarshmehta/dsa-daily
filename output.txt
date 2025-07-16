@@ -1,4 +1,2 @@
-0x16d25ae38
-5
-0x16d25ae38
-0x16d25ae30
+The max element is: 4
+The max element is: 2
