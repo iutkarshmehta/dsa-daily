@@ -3,7 +3,7 @@ using namespace std;
 
 bool checkSorted(vector<int> arr, int i, int size)
 {
-    if (i == size - 1)
+    if (i >= size - 1)
     {
         return true;
     }
