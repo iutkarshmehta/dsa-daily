@@ -34,6 +34,7 @@ Node *converttoLL(vector<int> &arr)
     }
     return head;
 }
+
 Node *deleteKthNode(Node *head, int k)
 {
     if (head == nullptr)
@@ -65,6 +66,7 @@ Node *deleteKthNode(Node *head, int k)
 
     return head;
 }
+
 Node *deleteStartNode(Node *head)
 {
     Node *temp = head;
@@ -84,6 +86,7 @@ Node *deleteTailNode(Node *head)
     temp->next = nullptr;
     return head;
 }
+
 Node *deleteElement(Node *head, int ele)
 {
     if (head == nullptr)
@@ -177,19 +180,24 @@ Node *insertAtKthPosition(Node *head, int k, int ele)
     return head;
 }
 
-Node* insertBeforeValue(Node* head, int ele, int val) {
-    if(head == nullptr) {
+Node *insertBeforeValue(Node *head, int ele, int val)
+{
+    if (head == nullptr)
+    {
         return nullptr;
     }
 
-    if(head->data == val) {
-        return new Node(ele,head);
+    if (head->data == val)
+    {
+        return new Node(ele, head);
     }
 
-    Node* temp = head;
-    while(temp->next != nullptr) {
-        if(temp->next->data == val) {
-            Node* x = new Node(ele,temp->next);
+    Node *temp = head;
+    while (temp->next != nullptr)
+    {
+        if (temp->next->data == val)
+        {
+            Node *x = new Node(ele, temp->next);
             temp->next = x;
             break;
         }
